@@ -1,9 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
-<<<<<<< HEAD
-const token = '7095189118:AAFAS6Qx4jeiy8GcCjZAZd664--FO861cm8';
-=======
+
 const token = ''; //ТОКЕН СЮДА
->>>>>>> origin
+
 const bot = new TelegramBot(token, { polling: true });
 
 const directions = {
